@@ -66,6 +66,8 @@ if (threeDays) {
 }
 }
 
+const refresh = document.getElementById('refresh-button');
+
 function resultFive() { 
 
   const rugbyPlayer = document.getElementById('q5-a').checked;
@@ -81,5 +83,14 @@ if (proSwimmer) {
     resultFive.innerHTML = '';
   }, 1500);
 }
+refresh.focus();
+}
+
+
+
+refresh.onclick = refreshPage;
+
+function refreshPage() {
+    location.reload();
 }
 
