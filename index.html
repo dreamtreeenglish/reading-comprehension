@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reading Comprehension</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Reading Comprehension</h1>
+    <p>
+      <strong>Directions</strong>: Read the story and select the correct answer.
+    </p>
+    <br />
+    <p>
+      Daniel Porter is from America. He is 12 years old. He lives in California.
+      He has two brothers and one sister.
+    </p>
+    <p>
+      Daniel's favorite sport is swimming. He goes to swimming practice on
+      Monday, Wednesday, and Friday.
+    </p>
+    <p>He wants to be a professional swimmer when he grows up.</p>
+
+    <h4>Questions</h4>
+    <p>1.What country is Daniel from?</p>
+    <form>
+      <input type="radio" id="q1-a" name="question1" />Canada <br />
+      <input type="radio" id="q1-b" name="question1" />America <br />
+      <input type="radio" id="q1-c" name="question1" />United Kingdom
+    </form>
+    <button onclick="resultOne();">Check</button>
+    <p id="result-1"></p>
+
+    <p>2. How many siblings does Daniel have?</p>
+    <form>
+      <input type="radio" id="q2-a" name="question2" />2 siblings <br />
+      <input type="radio" id="q2-b" name="question2" />3 siblings <br />
+      <input type="radio" id="q2-c" name="question2" />4 siblings
+    </form>
+    <button onclick="resultTwo();">Check</button>
+    <p id="result-2"></p>
+
+    <p>3. Is Daniel's favorite sport tennis?</p>
+    <form>
+      <input type="radio" id="q3-a" name="question3" />Yes, it is. <br />
+      <input type="radio" id="q3-b" name="question3" />No, it isn't. <br />
+    </form>
+    <button onclick="resultThree();">Check</button>
+    <p id="result-3"></p>
+
+    <p>4. How many days a week does Daniel have swimming practice?</p>
+    <form>
+      <input type="radio" id="q4-a" name="question4" />3 days <br />
+      <input type="radio" id="q4-b" name="question4" />4 days <br />
+      <input type="radio" id="q4-c" name="question4" />5 days
+    </form>
+    <button onclick="resultFour();">Check</button>
+    <p id="result-4"></p>
+
+    <p>5. What does Daniel want to be when he grows up?</p>
+    <form>
+      <input type="radio" id="q5-a" name="question5" />He wants to be a
+      professional rugby player. <br />
+      <input type="radio" id="q5-b" name="question5" />He wants to be a
+      professional soccer player. <br />
+      <input type="radio" id="q5-c" name="question5" />He wants to be a
+      professional swimmer.
+    </form>
+    <button onclick="resultFive();">Check</button>
+    <p id="result-5"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
